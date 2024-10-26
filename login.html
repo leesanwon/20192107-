@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+
+    <style>
+        html,body {height: 100%;}
+        header {background-color: olive;
+            color: white;
+            padding: 20px;
+        }
+
+        header h1 a {
+            color: white;
+            text-decoration: none;
+        }
+
+        header h1 a:hover {
+            color:green;
+            
+        }
+
+        nav { 
+            background-color: cadetblue;
+            color: white;
+            padding: 5px;
+            
+            
+
+        }
+        nav ul {
+            list-style: none;
+            
+        }
+
+        nav ul li{
+            display: inline;
+            text-transform: uppercase;
+            padding: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: blue;
+           
+        }
+
+        
+
+        aside div{
+            background-color: bisque;
+            width: 32%;
+            float: right;
+            text-align: center;
+        
+        }
+
+
+        section {
+            background-color:lightcyan;
+            width: 65%;
+            float: left;
+
+            
+        }
+
+        footer {
+            background-color: lightgrey;
+            clear: both;
+        }
+
+        article {
+            background-color: white;
+        }
+
+        footer ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        footer ul li {
+            display: inline;
+            padding: 15px;
+            
+        }
+
+       .nut:hover {
+            box-shadow: 0 15px 16px 0 rgba(6, 6, 6, 0.2);
+          }
+
+        .good { 
+            background-color: yellow;
+            display: inline;
+        }
+
+        aside form {
+            text-align: center;
+        }
+
+       
+    </style>
+
+</head>
+        
+        
+<body></body>
+    <header>
+    <h1> <a href="index.html">Veggie Shop </a> </h1>
+    </header>
+
+<nav>
+    <ul>
+        <li><a href="index.html#fruits"> Fresh Fruits </a></li>
+        <li><a href="#veggies"> Fresh Veggies </a></li>
+        <li><a href="#salads">Fresh Salads</a></li>
+        <li><a href="seed.html" target="_blank">Seeds and Nuts</a></li>
+        <li><a href="gift.html" target="_blank">Gift Box</a></li>
+        <li><a href="bmi.html" target="_blank"> BMI 계산기</a></li>
+        <li><a href="login.html" target="_blank">로그인 </a></li>
+        <li><a href="signup.html" target="_blank"> 회원가입 </a></li>
+    </ul>
+
+
+</nav>
+</head>
+<body>
+    <h1>로그인</h1>
+    <from action="index.php" method="post">
+        아이디: <input type="text" name="id"><br>
+        패스워드:<input type="password" name="pw"><br>
+        <input type="submit" value="로그인">
+    </from>
+
+
+</body>
+</html>
